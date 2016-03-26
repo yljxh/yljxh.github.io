@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>font库调用</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<style>
+@font-face{
+	font-family:icons;
+	src: url(../fonts/mui.ttf) format("truetype");
+}
+.action-reload{
+	font-family: icons;
+}
+.action-reload:before{
+	content: "\e563";
+}
+.action-add:after{
+	content: "\e466";
+}
+</style>
+<body>
+<div class="dv" id="dv">
+	<a  class="action-add ui-icon left-icon" href="javascript:;"></a>
+	<h1>婚纱摄影</h1>
+	<a  class="action-reload ui-icon right-icon" id="goLogin" href="javascript:;"></a>
+</div>
+</body>
+</html>
